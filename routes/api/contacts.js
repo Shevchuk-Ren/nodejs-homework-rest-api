@@ -2,8 +2,8 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', async (req, res, next) => {
-  res.json({ message: 'template message' })
-})
+  res.json({ message: 'Welcome to backand hell, my friend' })
+}) // change something
 
 router.get('/:contactId', async (req, res, next) => {
   res.json({ message: 'template message' })
